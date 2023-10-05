@@ -2,6 +2,13 @@ import React from "react";
 import { ModeToggle } from "./modetoggle";
 import { MixIcon } from "@radix-ui/react-icons";
 
+/**
+ * Nav
+ * A basic navbar containing only a logo and a toggle button for
+ * light and day modes
+ *
+ * @returns React.JSX.Element
+ */
 const Nav = () => {
   return (
     <header>

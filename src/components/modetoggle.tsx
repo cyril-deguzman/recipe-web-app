@@ -12,6 +12,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+/**
+ * Mode Toggle
+ * a toggle button for switching between light and day modes.
+ *
+ * @returns React.JSX.Element
+ */
 export function ModeToggle() {
   const { setTheme } = useTheme();
 

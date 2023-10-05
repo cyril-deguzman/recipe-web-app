@@ -1,5 +1,13 @@
 import { Input } from "@/components/ui/input";
 
+/**
+ * SearchBar
+ * A basic search bar.
+ *
+ * @TODO add functionality lol
+ * @TODO add search icon
+ * @returns React.JSX.Element
+ */
 export function SearchBar() {
   return (
     <Input
