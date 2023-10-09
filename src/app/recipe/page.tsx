@@ -47,8 +47,8 @@ export default function RecipePage() {
   return (
     <section className="pt-6">
       {!isLoading && recipe ? (
-        <div className="flex flex-col w-[90%] md:w-[35%] mx-auto">
-          <div className="relative w-full h-40 md:h-64">
+        <div className="flex flex-col w-[90%] lg:w-[45%] md:w-[65%] mx-auto">
+          <div className="relative w-full h-40 lg:h-64 md:h-44">
             <Image
               className="rounded-md object-cover"
               src={recipe.imageURL}
@@ -60,7 +60,7 @@ export default function RecipePage() {
             <p className="text-center font-semibold text-xl">{recipe.name}</p>
           </div>
           <div className="pt-5">
-            <p className="items-center font-medium text-lg flex flex-row">
+            <p className="items-center font-medium text-xl flex flex-row">
               <IconJarLogoIcon className="h-[1.4rem] w-[1.4rem] pr-1" />{" "}
               Ingredients
             </p>
@@ -71,7 +71,7 @@ export default function RecipePage() {
             </div>
           </div>
           <div className="pt-8">
-            <p className="items-center font-medium text-lg flex flex-row">
+            <p className="items-center font-medium text-xl flex flex-row">
               <DrawingPinIcon className="h-[1.4rem] w-[1.4rem] pr-1" /> Steps
             </p>
             <div className="flex flex-col pt-2 gap-y-3.5">
